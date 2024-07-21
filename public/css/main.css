@@ -17,119 +17,121 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 10px 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
 }
 
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left .logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
 .navbar-left h1 {
   margin: 0;
   font-size: 24px;
+  color: #664A4A;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
 }
 
 .navbar-right a {
   margin-left: 20px;
-  color: #333;
+  color: #664A4A;
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s ease;
 }
 
 .navbar-right a:hover {
-  color: #f39c12;
+  color: #F6B794;
+}
+
+.navbar-right .home-icon {
+  height: 24px;
 }
 
 /* 카드 스타일 */
 .content {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .card {
   width: 45%;
-  background-color: #fff;
+  background-color: #FFF5ED;
   padding: 20px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
   text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .circle {
-  width: 100px;
-  height: 100px;
-  background-color: #f39c12;
+  width: 150px;
+  height: 150px;
+  background-color: #F6B794;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 10px;
+  margin: 0 auto 20px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .circle:hover {
-  background-color: #e67e22;
+  background-color: #f39265;
 }
 
 .circle h2 {
   color: white;
-  font-size: 18px;
+  font-size: 24px;
   margin: 0;
+  line-height: 1.2;
 }
 
 .card p {
-  font-size: 14px;
-  color: #666;
-  margin-bottom: 10px;
-}
-
-textarea {
-  width: 100%;
-  height: 60px;
-  margin-top: 10px;
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  box-sizing: border-box;
-  font-size: 14px;
-}
-
-button {
-  margin-top: 10px;
-  padding: 10px;
-  background-color: #f39c12;
-  color: white;
-  border: none;
-  border-radius: 5px;
   font-size: 16px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-button:hover {
-  background-color: #e67e22;
+  color: #664A4A;
+  margin-bottom: 10px;
 }
 
 /* 추천 섹션 스타일 */
-.recommendation {
-  background-color: #fff;
+.recommendation-title {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #664A4A; /* 텍스트 색상 변경 */
+  text-align: left;
+}
+
+.book-recommendation {
+  background-color: #FFF5ED; /* 배경색 변경 */
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  text-align: center;
+  text-align: left;
 }
 
-.recommendation h2 {
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.recommendation p {
-  font-size: 14px;
-  color: #666;
+.book-recommendation p {
+  font-size: 16px;
+  color: #664A4A;
 }
 
 /* 모달 스타일 추가 */

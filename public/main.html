@@ -11,23 +11,39 @@
     <title>메인 페이지</title>
   </head>
   <body>
+    <header>
+      <div class="navbar">
+        <div class="navbar-left">
+          <img src="./png/logo.png" alt="Logo" class="logo">
+          <h1>공사중</h1>
+        </div>
+        <div class="navbar-right">
+          <a href="#"><img src="./png/home.png" alt="Home" class="home-icon"></a>
+        </div>
+      </div>
+    </header>
     <div class="main-container">
       <section class="content">
         <div class="card">
           <button class="circle" id="todayQuestionButton">
-            <h2>오늘의 질문</h2>
+            <h2>오늘의<br> 질문</h2>
           </button>
-          <p>매 공강 시간에 사색할 수 있는 질문을 보여드려요</p>
+          <p>매 공강 시간에 맞춰<br> 
+            질문을 하나씩 제공해 드려요.<br>
+            나에 대해 알아가 보는건 어떨까요?</p>
         </div>
         <div class="card">
           <button class="circle" id="myRecordsButton">
-            <h2>나의 기록</h2>
+            <h2>나의<br> 기록</h2>
           </button>
-          <p>답변한 질문들을 볼 수 있어요</p>
+          <p>그동안 작성한 답변들을 모아볼 수 있어요.<br>
+            쌓여가는 답변들을 보며<br> 
+            성취감도 느낄 수 있겠죠?
+            </p>
         </div>
       </section>
-      <section class="recommendation">
-        <h2>오늘의 추천 책</h2>
+      <h2 class="recommendation-title">오늘의 추천 책</h2>
+      <section class="recommendation book-recommendation">
         <p>대충 설명들 + 사진들</p>
       </section>
     </div>
