@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+    />
+    <link rel="stylesheet" href="css/signup.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <title>회원가입</title>
+  </head>
+  <body>
+    <div class="auth-container">
+      <h1><i class="fas fa-hard-hat"></i> 공사중의 회원이 되어보세요</h1>
+      <form id="signupForm">
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="아이디"
+          required
+        />
+        <input
+          type="text"
+          id="nickname"
+          name="nickname"
+          placeholder="닉네임"
+          required
+        />
+        <div class="password-container">
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="비밀번호"
+            required
+          />
+          <input
+            type="password"
+            id="confirmPassword"
+            name="confirmPassword"
+            placeholder="비밀번호 확인"
+            required
+          />
+        </div>
+        <button type="submit">시작하기</button>
+      </form>
+    </div>
+    <script src="js/signup.js"></script>
+  </body>
+</html>
