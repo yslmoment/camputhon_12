@@ -33,7 +33,7 @@
 ## 2. 프로젝트 구조
 
 - **Flowchart**:
-  <img width="647" alt="스크린샷 2024-07-21 오후 5 43 54" src="https://github.com/user-attachments/assets/07cad316-64b1-4c4d-9281-4ae08139c839">
+- <img width="647" alt="2024-07-21_5 43 54" src="https://github.com/user-attachments/assets/b3f9015e-80e1-406b-9061-cf13f1e80b37">
   <br>
 
 ## 3. 역할 분담
