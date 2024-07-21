@@ -1,0 +1,38 @@
+body, html {
+    width: auto;
+    height: auto;
+    margin: 200px;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 300px;
+    height: auto;
+}
+
+.character-or-logo {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.gray-box {
+    background-color: #D9D9D9;
+    width: 300px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; /* 링크의 밑줄을 제거 */
+    color: black; /* 링크의 기본 색상을 검정으로 설정 */
+}
+
+.text {
+    font-size: 20px;
+}
