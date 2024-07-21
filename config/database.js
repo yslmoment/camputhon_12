@@ -1,15 +1,18 @@
 const mysql = require("mysql");
 
 const db = mysql.createConnection({
-  host: "localhost", // 데이터베이스 호스트
-  user: "root", // 데이터베이스 사용자
-  password: "1234", // 데이터베이스 비밀번호
-  database: "your_database", // 데이터베이스 이름
+  host: "localhost",
+  user: "root",
+  password: "1234",
+  database: "your_database",
 });
 
 db.connect((err) => {
-  if (err) throw err;
-  console.log("MySQL Connected...");
+  if (err) {
+    console.error("MySQL 연결 오류:", err);
+    throw err;
+  }
+  console.log("MySQL 연결 성공");
 });
 
 module.exports = db;

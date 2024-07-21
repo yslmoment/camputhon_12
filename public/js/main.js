@@ -12,12 +12,4 @@ document.addEventListener("DOMContentLoaded", function () {
     .addEventListener("click", function () {
       window.location.href = "my-records.html";
     });
-
-  // "오늘의 추천 책"을 가져오는 로직
-  fetch("/api/recommendations")
-    .then((response) => response.json())
-    .then((data) => {
-      const recommendationSection = document.querySelector(".recommendation p");
-      recommendationSection.innerText = data.recommendation;
-    });
 });

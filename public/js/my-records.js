@@ -1,4 +1,9 @@
 document.addEventListener("DOMContentLoaded", function () {
+  // 모달 요소 가져오기
+  const modal = document.getElementById("recordModal");
+  const modalContent = document.getElementById("modalContent");
+  const span = document.getElementsByClassName("close")[0];
+
   // 나의 기록 불러오기
   fetch("/api/my-records")
     .then((response) => response.json())
@@ -10,14 +15,35 @@ document.addEventListener("DOMContentLoaded", function () {
         recordElement.classList.add("record-item");
 
         const questionElement = document.createElement("p");
-        questionElement.innerText = `질문: ${record.question}`;
+        questionElement.innerHTML = `<strong>질문:</strong> ${record.question}`;
         recordElement.appendChild(questionElement);
 
         const answerElement = document.createElement("p");
-        answerElement.innerText = `답변: ${record.answer}`;
+        answerElement.innerHTML = `<strong>답변:</strong> ${record.answer}`;
         recordElement.appendChild(answerElement);
+
+        recordElement.addEventListener("click", function () {
+          modal.style.display = "block";
+          modalContent.innerHTML = `
+                      <h2>질문</h2>
+                      <p>${record.question}</p>
+                      <h2>답변</h2>
+                      <p>${record.answer}</p>
+                  `;
+        });
 
         recordsList.appendChild(recordElement);
       });
     });
+
+  // 모달 닫기
+  span.onclick = function () {
+    modal.style.display = "none";
+  };
+
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  };
 });

@@ -10,11 +10,19 @@ document.addEventListener("DOMContentLoaded", function () {
         const questionText = document.getElementById("questionText");
         questionText.innerText = data.question;
       } else {
-        alert("더 이상 질문이 없습니다.");
+        alert(
+          "질문을 가져올 수 없습니다: " + (data.message || "알 수 없는 오류")
+        );
         const questionText = document.getElementById("questionText");
-        questionText.innerText = "오늘의 질문이 없습니다.";
+        questionText.innerText = "질문을 가져올 수 없습니다.";
         document.getElementById("submitAnswer").disabled = true;
       }
+    })
+    .catch((error) => {
+      alert("질문을 가져오는 도중 오류가 발생했습니다: " + error.message);
+      const questionText = document.getElementById("questionText");
+      questionText.innerText = "질문을 가져올 수 없습니다.";
+      document.getElementById("submitAnswer").disabled = true;
     });
 
   // 답변 제출
@@ -40,9 +48,14 @@ document.addEventListener("DOMContentLoaded", function () {
             if (data.success) {
               alert("답변이 제출되었습니다.");
               document.getElementById("todayAnswer").value = "";
+              // 메인 화면으로 리디렉션
+              window.location.href = "main.html";
             } else {
               alert("답변 제출에 실패했습니다.");
             }
+          })
+          .catch((error) => {
+            alert("답변 제출 도중 오류가 발생했습니다: " + error.message);
           });
       } else {
         alert("답변을 입력해주세요.");
