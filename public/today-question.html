@@ -10,13 +10,16 @@
     <link rel="stylesheet" href="css/main.css" />
     <title>오늘의 질문</title>
   </head>
+
   <body>
     <div class="main-container">
-      <h2>오늘의 질문</h2>
-      <div class="card">
-        <p id="questionText">매 공강 시간에 사색할 수 있는 질문을 보여드려요</p>
-        <textarea id="todayAnswer" placeholder="답변을 작성하세요"></textarea>
-        <button id="submitAnswer">제출하기</button>
+      <h2 class="todayquestion-box">오늘의 질문</h2>
+      <div class=".question-card">
+        <img src="./png/QM1.png" class= "QM1"> 
+        <p class="question-box" id="questionText">매 공강 시간에 사색할 수 있는 질문을 보여드려요</p>
+        <img src="./png/QM2.png" class= "QM2">
+        <textarea class="answer-box" id="todayAnswer" placeholder="답변을 작성하세요"></textarea>
+        <button class="submit-box" id="submitAnswer">제출하기</button>
       </div>
     </div>
     <script src="js/today-question.js"></script>

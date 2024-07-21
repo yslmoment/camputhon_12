@@ -1,3 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #664A4A;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.navbar-right a {
+  margin-left: 20px;
+  color: #664A4A;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar-right a:hover {
+  color: #F6B794;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+
+
+
+
+
 /* 메인 페이지 스타일 */
 body {
   font-family: "Roboto", sans-serif;
@@ -18,7 +58,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
+  padding: 20px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
@@ -47,14 +87,14 @@ body {
 
 .navbar-right a {
   margin-left: 20px;
-  color: #664A4A;
+  color: #333;
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s ease;
 }
 
 .navbar-right a:hover {
-  color: #F6B794;
+  color: #f39c12;
 }
 
 .navbar-right .home-icon {
@@ -65,17 +105,31 @@ body {
 .content {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .card {
-  width: 45%;
-  background-color: #FFF5ED;
+  width: 80%;
+  height: 90%;
+  background: #FFF5ED;
   padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-radius: 10px;
-  text-align: center;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: auto;
+  display: block;
+}
+
+.question-card {
+  width: 80%;
+  height: 90%;
+  background: #FFF5ED;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin: auto;
+  display: block;
 }
 
 .card:hover {
@@ -84,205 +138,80 @@ body {
 }
 
 .circle {
-  width: 150px;
-  height: 150px;
-  background-color: #F6B794;
+  width: 100px;
+  height: 100px;
+  background-color: #f39c12;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 20px;
+  margin: 0 auto 10px;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
 
 .circle:hover {
-  background-color: #f39265;
+  background-color: #e67e22;
 }
 
 .circle h2 {
   color: white;
-  font-size: 24px;
+  font-size: 18px;
   margin: 0;
-  line-height: 1.2;
 }
 
 .card p {
-  font-size: 16px;
-  color: #664A4A;
+  font-size: 14px;
+  color: #666;
   margin-bottom: 10px;
+  text-align: center;
+}
+
+textarea {
+  width: 100%;
+  height: 60px;
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #e67e22;
 }
 
 /* 추천 섹션 스타일 */
-.recommendation-title {
-  font-size: 24px;/* 메인 페이지 스타일 */
-  body {
-    font-family: "Roboto", sans-serif;
-    color: #664A4A;
-    background-color: #f8f8f8;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .main-container {
-    width: 90%;
-    margin: 0 auto;
-    padding: 20px;
-  }
-  
-  /* 네비게이션 바 스타일 */
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
-  }
-  
-  .navbar-left {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-left .logo {
-    height: 40px;
-    margin-right: 10px;
-  }
-  
-  .navbar-left h1 {
-    margin: 0;
-    font-size: 24px;
-    color: #664A4A;
-  }
-  
-  .navbar-right {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar-right a {
-    margin-left: 20px;
-    color: #664A4A;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s ease;
-  }
-  
-  .navbar-right a:hover {
-    color: #F6B794;
-  }
-  
-  .navbar-right .home-icon {
-    height: 24px;
-  }
-  
-  /* 카드 스타일 */
-  .card {
-    background-color: #FFF5ED;
-    padding: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-    margin-bottom: 20px;
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-  }
-  
-  .card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
-  }
-  
-  .card h2 {
-    font-size: 18px;
-    color: #664A4A;
-    margin: 0 0 10px 0;
-  }
-  
-  .card p {
-    font-size: 16px;
-    color: #664A4A;
-    margin: 0;
-  }
-  
-  .record-item {
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    background-color: #ffe4e1;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  }
-  
-  .record-item:nth-child(even) .card {
-    background-color: #f6b794;
-    color: white;
-  }
-  
-  .record-item:nth-child(even) .card h2,
-  .record-item:nth-child(even) .card p {
-    color: white;
-  }
-  
-  .record-item h3 {
-    font-size: 14px;
-    color: #664A4A;
-    margin-bottom: 10px;
-  }
-  
-  /* 모달 스타일 추가 */
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    padding-top: 60px;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgb(0, 0, 0);
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  
-  .modal-content {
-    background-color: #fefefe;
-    margin: 5% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  
-  margin-bottom: 20px;
-  color: #664A4A; /* 텍스트 색상 변경 */
-  text-align: left;
-}
-
-.book-recommendation {
-  background-color: #FFF5ED; /* 배경색 변경 */
+.recommendation {
+  background-color: #fff;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  text-align: left;
+  text-align: center;
 }
 
-.book-recommendation p {
-  font-size: 16px;
-  color: #664A4A;
+.recommendation h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.recommendation p {
+  font-size: 14px;
+  color: #666;
 }
 
 /* 모달 스타일 추가 */
@@ -336,25 +265,42 @@ body {
   line-height: 1.5;
 }
 
-/* 나의 기록 섹션 스타일 추가 */
-.record-item {
-  padding: 20px;
-  border-radius: 10px;
+.question-box {
+  text-align: center;
+  padding: 5px;
+  font-size: 50px;
+  margin: 15px;
+}
+
+.answer-box {
+  background-color: hsl(22, 100%, 98%);
+  width: 70%;
+  height: 500px;
+  margin: auto;
+  display: block;
+  margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.record-item:nth-child(even) .card {
-  background-color: #F6B794;
-  color: white;
-}
-
-.record-item:nth-child(even) .card h2,
-.record-item:nth-child(even) .card p {
-  color: white;
-}
-
-.record-item h3 {
-  font-size: 14px;
+  font-size: 20px;
   color: #664A4A;
-  margin-bottom: 10px;
+}
+
+.todayquestion-box {
+  text-align: center;
+  font-size: 40px;
+  color: #664A4A;
+}
+
+.submit-box {
+  margin: auto;
+  display: block;
+  padding: 10px;
+  background-color: #F6B794;
+}
+
+/* 기타 스타일 */
+.QM1, .QM2 {
+  margin: auto;
+  display: block;
+  width: 50px;
+  height: 50px;
 }

@@ -35,11 +35,11 @@ body {
 .auth-container input {
   width: calc(100% - 20px);
   padding: 10px;
-  margin: 10px 0;
+  margin: 5px 0;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius: 15px;
   box-sizing: border-box;
-  background-color: #f8f8f8;
+  background-color: #FFF5ED;
 }
 
 .auth-container button {
@@ -68,4 +68,22 @@ body {
 
 .auth-container a:hover {
   text-decoration: underline;
+}
+
+.logobox {
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+}
+
+.login-button {
+  background: #F6B794;
+  border: none;
+  border-radius: 25px;
+  color: rgb(255, 255, 255);
+  width: 30px;
+  height: 40px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-top: 10px;
 }
