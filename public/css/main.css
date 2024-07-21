@@ -30,14 +30,14 @@ body {
 
 .navbar-right a {
   margin-left: 20px;
-  color: #333;
+  color: #664A4A;
   text-decoration: none;
   font-size: 16px;
   transition: color 0.3s ease;
 }
 
 .navbar-right a:hover {
-  color: #f39c12;
+  color: #F6B794;
 }
 
 /* 카드 스타일 */
@@ -49,7 +49,7 @@ body {
 
 .card {
   width: 45%;
-  background-color: #fff;
+  background-color: #FFF5ED;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -59,7 +59,7 @@ body {
 .circle {
   width: 100px;
   height: 100px;
-  background-color: #f39c12;
+  background-color: #F6B794;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -82,7 +82,7 @@ body {
 
 .card p {
   font-size: 14px;
-  color: #666;
+  color: #664A4A;
   margin-bottom: 10px;
 }
 
@@ -115,7 +115,7 @@ button:hover {
 
 /* 추천 섹션 스타일 */
 .recommendation {
-  background-color: #fff;
+  background-color: #FFF5ED;
   padding: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
@@ -124,10 +124,11 @@ button:hover {
 
 .recommendation h2 {
   font-size: 20px;
+  color: #664A4A;
   margin-bottom: 10px;
 }
 
 .recommendation p {
   font-size: 14px;
-  color: #666;
+  color: #664A4A;
 }
