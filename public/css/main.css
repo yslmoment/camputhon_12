@@ -12,34 +12,6 @@ body {
   padding: 20px;
 }
 
-/* 네비게이션 바 스타일 */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  margin-bottom: 20px;
-}
-
-.navbar-left h1 {
-  margin: 0;
-  font-size: 24px;
-}
-
-.navbar-right a {
-  margin-left: 20px;
-  color: #333;
-  text-decoration: none;
-  font-size: 16px;
-  transition: color 0.3s ease;
-}
-
-.navbar-right a:hover {
-  color: #f39c12;
-}
-
 /* 카드 스타일 */
 .content {
   display: flex;
@@ -175,10 +147,33 @@ button:hover {
   border: 1px solid #ddd;
   border-radius: 10px;
   margin-bottom: 20px;
+  position: relative; /* 삭제 버튼을 위한 상대 위치 설정 */
 }
 
 .record-item p {
   margin: 0;
   font-size: 16px;
   line-height: 1.5;
+}
+
+.record-date {
+  font-size: 14px;
+  color: #999;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  background-color: #ff1a1a;
 }
