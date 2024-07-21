@@ -9,6 +9,7 @@
 - **기능 1**: 오늘의 질문
 - **기능 2**: 나의 기록
 - **기능 3**: 추천 서비스
+- https://www.figma.com/design/OcvBiSEsGpA3VWthxyaStR/camputhon?node-id=45-231&t=Om5QHLa8F2HppBmW-1
   <br>
 
 ## 팀원 구성
