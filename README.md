@@ -33,6 +33,7 @@
 - **Back-end**: Node.js
 - **Database**: MySQL
 - **Server**: AWS (배포예정)
+
   <br>
 
 ## 프로젝트 설계도
@@ -40,15 +41,18 @@
 - **Flowchart**:
 
 <img width="680" alt="스크린샷 2024-07-22 오전 9 43 13" src="https://github.com/user-attachments/assets/ca3de242-8416-4849-963b-15625ec86d85">
+  
   <br>
 
 - **API 명세서**:
 <img width="1000" alt="스크린샷 2024-07-22 오전 9 54 44" src="https://github.com/user-attachments/assets/cd2d26f7-5020-4e8d-8a76-e386152ce771">
-<br>
+
+  <br>
 
 - **DB 테이블명세서**:
 ![image](https://github.com/user-attachments/assets/d113e49c-51ff-499d-a1f5-a5ac7a2df8cb)
-<br>
+
+  <br>
   
 ## 역할 분담
 
