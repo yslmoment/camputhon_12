@@ -44,6 +44,13 @@
   
   <br>
   <br>
+
+- **UML Diagram(Class, Sequence)**:
+![12](https://github.com/user-attachments/assets/4a652772-bfb2-4dd2-9edc-54715ff549d5)
+![13](https://github.com/user-attachments/assets/2713ade8-7c24-4b0b-894e-dcbc2f8c3235)
+
+    <br>
+  <br>
   
 - **API 명세서**:
 <img width="1000" alt="스크린샷 2024-07-22 오전 9 54 44" src="https://github.com/user-attachments/assets/cd2d26f7-5020-4e8d-8a76-e386152ce771">
