@@ -1,4 +1,4 @@
-![logo](https://github.com/user-attachments/assets/9db526ea-7834-474d-b7d7-608c9b51f436)
+<img src="https://github.com/user-attachments/assets/9db526ea-7834-474d-b7d7-608c9b51f436" height=150 width=150>
 
 # 공강시간에 사색하는 중생들 (공사중)
 - 배포 URL : AWS를 이용한 배포예정
