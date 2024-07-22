@@ -25,7 +25,7 @@
 
 <br>
 
-## 1. 개발 환경
+## 개발 환경
 
 - **Front**: HTML, CSS, Javascript
 - **Back-end**: Node.js
@@ -33,14 +33,14 @@
 - **Server**: AWS (배포예정)
   <br>
 
-## 2. 프로젝트 구조
+## 프로젝트 구조
 
 - **Flowchart**:
 
 <img width="647" alt="2024-07-21_5 43 54" src="https://github.com/user-attachments/assets/b3f9015e-80e1-406b-9061-cf13f1e80b37">
   <br>
 
-## 3. 역할 분담
+## 역할 분담
 
 - **김도현**: 백엔드 개발 (db설계 및 구현)
 - **김예원**: 벡앤드 개발 (api설계 및 구현) 
