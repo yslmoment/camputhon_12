@@ -40,7 +40,7 @@
 
 - **Flowchart**:
  <br>
-<img width="680" alt="스크린샷 2024-07-22 오전 9 43 13" src="https://github.com/user-attachments/assets/ca3de242-8416-4849-963b-15625ec86d85">
+<img width="680" alt="스크린샷 2024-07-22 오전 9 43 13" src="https://github.com/user-attachments/assets/11dd8cac-1e65-4eac-9a91-4b2815b7fdf2">
   
   <br>
   <br>
@@ -48,8 +48,8 @@
 - **UML Diagram(Class, Sequence)**:
 
    <br>
-![12](https://github.com/user-attachments/assets/4a652772-bfb2-4dd2-9edc-54715ff549d5)
-![13](https://github.com/user-attachments/assets/2713ade8-7c24-4b0b-894e-dcbc2f8c3235)
+![12](https://github.com/user-attachments/assets/afdd24cf-2ec2-4d20-b0f8-5d29db9d65b0)
+![13](https://github.com/user-attachments/assets/adcc5ed1-f304-44bc-beee-828d256bc725)
 
 
 
