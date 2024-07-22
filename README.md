@@ -39,7 +39,7 @@
 
 - **Flowchart**:
 
-<img width="647" alt="2024-07-21_5 43 54" src="https://github.com/user-attachments/assets/b3f9015e-80e1-406b-9061-cf13f1e80b37">
+<img width="680" alt="스크린샷 2024-07-22 오전 9 43 13" src="https://github.com/user-attachments/assets/ca3de242-8416-4849-963b-15625ec86d85">
   <br>
 
 ## 역할 분담
