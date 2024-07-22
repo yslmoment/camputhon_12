@@ -84,12 +84,12 @@
 ## 시연영상
 
 ### 회원가입
-https://github.com/user-attachments/assets/e383c671-6ad6-40c8-b720-129b7f104764
+https://github.com/user-attachments/assets/b95ec459-132e-4d7f-92b7-8ac54a8eaaa5
 - 회원가입시 db에 잘 저장됨을 알 수 있다.
 - 비밀번호 오류시 로그인이 되지않는다.
 
 ### 기능
-https://github.com/user-attachments/assets/e0a630d4-8640-494a-9352-f9b2b8f20441
+https://github.com/user-attachments/assets/6b63e323-5c59-494c-9912-479e327b402a
 
 - 오늘의 질문에 답변을 하면 db에 저장된다.
 - 저장된 답변은 나의기록에서 확인할 수 있으며 삭제 또한 가능하고 즉각적인 db연동이 가능하다.
