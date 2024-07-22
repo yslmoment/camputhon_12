@@ -58,7 +58,7 @@
 - **API 명세서**:
  <br>
   
-<img width="1000" alt="스크린샷 2024-07-22 오전 9 54 44" src="https://github.com/user-attachments/assets/cd2d26f7-5020-4e8d-8a76-e386152ce771">
+<img width="1000" alt="스크린샷 2024-07-22 오전 9 54 44" src="https://github.com/user-attachments/assets/bc84305d-4804-4e45-a11c-ce9111f94b7f">
 
   <br>
   <br>
@@ -67,7 +67,7 @@
 
    <br>
    
-![image](https://github.com/user-attachments/assets/d113e49c-51ff-499d-a1f5-a5ac7a2df8cb)
+![image](https://github.com/user-attachments/assets/c3670c4f-be11-47dc-a835-38dbc4bd7d8d)
 
   <br>
   <br>
