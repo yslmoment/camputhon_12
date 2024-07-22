@@ -46,12 +46,17 @@
 - **이윤석**: PM ()
 - **주희윤**: 디자인, 프론트엔드 (웹 디자인)
   <br>
+  
 ## 시연영상
 
-
+### 회원가입
+https://github.com/user-attachments/assets/e383c671-6ad6-40c8-b720-129b7f104764
+### 기능
+https://github.com/user-attachments/assets/e0a630d4-8640-494a-9352-f9b2b8f20441
 
 
   <br>
+  
 ## 캠프톤 후기
 
 ### 김도현
