@@ -52,7 +52,7 @@
 ![13](https://github.com/user-attachments/assets/2713ade8-7c24-4b0b-894e-dcbc2f8c3235)
 
     <br>
-  <br>
+    <br>
   
 - **API 명세서**:
  <br>
